@@ -6,6 +6,7 @@ module.exports = {
         "^.+\\.ts$": "ts-jest"
     },
     "moduleNameMapper": {
-      "\\.(css|sass|scss)$": "identity-obj-proxy"
+      "\\.(css|sass|scss)$": "identity-obj-proxy",
+        "~(.*)$": "<rootDir>/src/$1",
     }
 };
